@@ -1,0 +1,63 @@
+driver_id,FN_x,FP,TN_x,TP_x,FN_y,TN_y,TP_y,diff in FN,diff in TN,diff in TP,test_session_counts,inf_session_counts,normalized_test_session_counts,FNR_zscore,FNR,Inf True preds,Inf Falst Preds,Test true oreds,Test false preds,comment
+D1001,0,0.2222222222222222,0.1111111111111111,0.6666666666666666,0,0,1,0,0.1111111111111111,-0.333333333,1,9,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1003,0,0.5714285714285714,0,0.42857142857142855,0,0.5,0.5,0,-0.5,-0.071428571,2,7,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1008,0,0.2857142857142857,0,0.7142857142857143,0,0.5,0.5,0,-0.5,0.2142857142857143,2,7,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1010,0,0,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.6666666666666666,0,-0.333333333,-0.333333333,0.6666666666666666,3,3,7.5,3.5113112205692834,1,yes,no,yes,yes,model seems to detect this driver ok
+D1012,0,0.2,0.2,0.6,0,0,1,0,0.2,-0.4,1,5,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1013,0,0,0,1,0,0.5,0.5,0,-0.5,0.5,2,4,5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1014,0.14285714285714285,0.2857142857142857,0.14285714285714285,0.42857142857142855,0,0.6666666666666666,0.3333333333333333,0.14285714285714285,-0.523809524,0.095238095,3,7,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1015,0,0.25,0,0.75,0,0,1,0,0,-0.25,1,4,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1016,0,0.5,0,0.5,0,0.6666666666666666,0.3333333333333333,0,-0.666666667,0.16666666666666669,3,2,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1017,0.25,0.25,0.25,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,-0.083333333,-0.083333333,-0.083333333,3,4,7.5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1018,0,0.6,0,0.4,0,0,1,0,0,-0.6,1,5,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1019,0,0,0,1,0,0.5,0.5,0,-0.5,0.5,4,9,10,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1022,0,0.5,0.5,0,0.3333333333333333,0.3333333333333333,0.3333333333333333,-0.333333333,0.16666666666666669,-0.333333333,3,2,7.5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1023,0,0.5,0.5,0,0,0.5,0.5,0,0,-0.5,2,2,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1024,0,1,0,0,0,0.3333333333333333,0.6666666666666666,0,-0.333333333,-0.666666667,6,2,15,-0.423049545,0,no,yes,yes,no,"Driver detected ok in test data, not in inf data"
+D1026,0.25,0.25,0,0.5,0,0.3333333333333333,0.6666666666666666,0.25,-0.333333333,-0.166666667,3,4,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1027,0.25,0.5,0,0.25,0,0.5,0.5,0.25,-0.5,-0.25,2,4,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1029,0,0,1,0,0,0.5,0.5,0,0.5,-0.5,2,2,5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1030,0,0.6,0.2,0.2,0,0.6666666666666666,0.3333333333333333,0,-0.466666667,-0.133333333,3,5,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1031,0,0.5,0,0.5,0.2,0.6,0.2,-0.2,-0.6,0.3,5,8,12.5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1032,0,0.42857142857142855,0.14285714285714285,0.42857142857142855,0,0.5,0.5,0,-0.357142857,-0.071428571,2,7,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1037,0,0.25,0.25,0.5,0,0,1,0,0.25,-0.5,1,4,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1040,0,0.8,0,0.2,0,0,1,0,0,-0.8,1,5,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1041,0,0.5,0,0.5,0,0,1,0,0,-0.5,1,2,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1042,0,0.3333333333333333,0,0.6666666666666666,0,0.25,0.75,0,-0.25,-0.083333333,4,3,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1043,0,0.6,0.4,0,0,0.25,0.75,0,0.15000000000000002,-0.75,4,5,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1044,0,0.25,0.25,0.5,0,0.3333333333333333,0.6666666666666666,0,-0.083333333,-0.166666667,3,4,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1045,0,0.75,0,0.25,0,0,1,0,0,-0.75,1,4,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1046,0,0.16666666666666666,0.16666666666666666,0.6666666666666666,0,0.5,0.5,0,-0.333333333,0.16666666666666663,2,6,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1047,0,0.4,0,0.6,0,0.25,0.75,0,-0.25,-0.15,4,5,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1048,0,0.25,0,0.75,0.3333333333333333,0.6666666666666666,0,-0.333333333,-0.666666667,0.75,3,4,7.5,3.5113112205692834,1,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1049,0,0.3333333333333333,0,0.6666666666666666,0.25,0.25,0.5,-0.25,-0.25,0.16666666666666663,4,3,10,0.8884040437584932,0.3333333333333333,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1050,0,0.6,0.2,0.2,0,0,1,0,0.2,-0.8,1,5,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1051,0,0.5,0,0.5,0,0.5,0.5,0,-0.5,0,2,4,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1052,0,0,0.6666666666666666,0.3333333333333333,0,0.8,0.2,0,-0.133333333,0.1333333333333333,5,3,12.5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1055,0,0.2,0.2,0.6,0,0.5,0.5,0,-0.3,0.1,2,5,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1056,0,0.6,0,0.4,0.5,0,0.5,-0.5,0,-0.1,2,5,5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1057,0,0.5,0,0.5,0,0.3333333333333333,0.6666666666666666,0,-0.333333333,-0.166666667,3,4,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1058,0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0,0.5,-0.5,0.3333333333333333,-0.166666667,2,3,5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1059,0,0,0.3333333333333333,0.6666666666666666,0,0.5,0.5,0,-0.166666667,0.16666666666666663,2,3,5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1060,0,0.5,0,0.5,0,0.75,0.25,0,-0.75,0.25,4,6,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1062,0,0.25,0.25,0.5,0,0,1,0,0.25,-0.5,2,4,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1065,0,0.5,0,0.5,0,0.6,0.4,0,-0.6,0.1,5,2,12.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1067,0,0.3333333333333333,0,0.6666666666666666,0,0,1,0,0,-0.333333333,2,3,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1070,0,0.25,0.25,0.5,0,0.5,0.5,0,-0.25,0,2,4,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1071,0,0.42857142857142855,0.2857142857142857,0.2857142857142857,0,0.3333333333333333,0.6666666666666666,0,-0.047619048,-0.380952381,3,7,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1073,0.16666666666666666,0,0.5,0.3333333333333333,0,0,1,0.16666666666666666,0.5,-0.666666667,3,6,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1075,0,0.5,0.3,0.2,0,0.5,0.5,0,-0.2,-0.3,2,10,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1076,0,0,0.5,0.5,0,0.5,0.5,0,0,0,2,2,5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1077,0,0.25,0.083333333,0.6666666666666666,0,0,1,0,0.083333333,-0.333333333,2,12,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1078,0,1,0,0,0,0,1,0,0,-1,1,3,2.5,-0.423049545,0,no,yes,yes,no,"Driver detected ok in test data, not in inf data"
+D1079,0,0.6666666666666666,0,0.3333333333333333,0,0.3333333333333333,0.6666666666666666,0,-0.333333333,-0.333333333,3,3,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1080,0,1,0,0,0,0.6,0.4,0,-0.6,-0.4,5,3,12.5,-0.423049545,0,no,yes,yes,no,"Driver detected ok in test data, not in inf data"
+D1082,0,0.5,0,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,-0.333333333,-0.333333333,0.16666666666666669,3,6,7.5,1.5441308379611909,0.5,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1084,0,0.3333333333333333,0,0.6666666666666666,1,0,0,-1,0,0.6666666666666666,1,3,2.5,3.5113112205692834,1,yes,yes,no,yes,model isn't very good at detecting this driver
+D1086,0,0,0.2,0.8,0,0,1,0,0.2,-0.2,1,5,2.5,-0.423049545,0,yes,no,yes,no,model seems to detect this driver ok
+D1089,0,0.5,0,0.5,0,0.25,0.75,0,-0.25,-0.25,4,4,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1091,0,0.25,0.25,0.5,0,0.3333333333333333,0.6666666666666666,0,-0.083333333,-0.166666667,3,4,7.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1093,0,0.5,0,0.5,0,0,1,0,0,-0.5,2,2,5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1094,0,0.25,0.5,0.25,0.2,0.4,0.4,-0.2,0.1,-0.15,5,4,12.5,0.8884040437584932,0.3333333333333333,yes,yes,yes,yes,model isn't very good at detecting this driver
+D1098,0,0.14285714285714285,0,0.8571428571428571,0,0,1,0,0,-0.142857143,1,7,2.5,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
+D1099,0,0.3333333333333333,0.6666666666666666,0,0,0.25,0.75,0,0.41666666666666663,-0.75,4,3,10,-0.423049545,0,yes,yes,yes,no,model detects driver ok only in test
